@@ -2,11 +2,11 @@
 import { bands } from './band-array.js';
 import { renderBand } from './render-band.js';
 
-import { bandObjects } from './bandObject-array.js';
+// import { bandObjects } from './bandObject-array.js';
 import { objRender } from './render-bandObject.js';
 
-import { nestedBandObjects } from './nestedBand-array.js';
-import { nestedRender } from './render-nestedBandObj.js';
+// import { nestedBandObjects } from './nestedBand-array.js';
+// import { nestedRender } from './render-nestedBandObj.js';
 
 import { nestedArrayBandObjects } from './array-four.js';
 
