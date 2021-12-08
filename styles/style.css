@@ -81,7 +81,7 @@ header img {
 p {
     margin: var(--gutter);
 }
-  
+
 footer {
     position: fixed;
     width: 100%;
@@ -92,22 +92,44 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
-  
-  @keyframes pulse {
-    20% {
-      transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
+
+@keyframes pulse {
+20% {
+    transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
+}
+
+40% {
+    transform: rotate3d(10, 10, -10, 50deg) scale(1);
+}
+
+60% {
+    transform: rotate3d(-10, 10, 10, 50deg) scale(1.2);
     }
 
-    40% {
-        transform: rotate3d(10, 10, -10, 50deg) scale(1);
-    }
+80% {
+    transform: rotate3d(10, 10, 10, 50deg) scale(1);
+}
 
-    60% {
-        transform: rotate3d(-10, 10, 10, 50deg) scale(1.2);
-      }
+}
 
-    80% {
-        transform: rotate3d(10, 10, 10, 50deg) scale(1);
-    }
+.bands {
+    text-align: center;
+}
 
-  }
+.top-albums {
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+}
+
+.albums-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+p {
+    margin: 0;
+    margin-top: 20px;
+}

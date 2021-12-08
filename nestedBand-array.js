@@ -1,4 +1,4 @@
-export const nestedArrayBandObjects = [
+export const nestedBandObjects = [
     {
         name: 'TOOL',
         genre: 'Progressive Rock',
@@ -8,13 +8,7 @@ export const nestedArrayBandObjects = [
             one:'Aenima',
             two:'Lateralus',
             three: 'Undertow'
-        },
-        members: [
-            'Maynard James Keenan',
-            'Dani Carey',
-            'Justin Chancellor',
-            'Adam Jones'
-        ]
+        }
     },
     {
         name: 'Led Zeppelin',
@@ -25,13 +19,7 @@ export const nestedArrayBandObjects = [
             one:'Led Zeppelin IV',
             two: 'Physical Graffiti',
             three: 'Led Zeppelin II'
-        },
-        members: [
-            'Robert Plant',
-            'Jimmy Page',
-            'Jon Bonham',
-            'John Paul Jones'
-        ] 
+        } 
     },
     {
         name: 'Black Sabbath',
@@ -42,13 +30,7 @@ export const nestedArrayBandObjects = [
             one:'Paranoid',
             two:'Black Sabbath',
             three: 'Black Sabbath Vol. 4'
-        },
-        members: [
-            'Ozzy Osbourne',
-            'Toni Iommi',
-            'Geezer Butler',
-            'Bill Ward'
-        ] 
+        } 
     },
     {
         name: 'The Beatles',
@@ -59,13 +41,7 @@ export const nestedArrayBandObjects = [
             one: 'Abbey Road',
             two: 'Sgt. Pepper\'s Lonely Hearts Club Band',
             three: 'The Beatles (The White Album)'
-        },
-        members: [
-            'Paul McCartney',
-            'John Lennon',
-            'George Harrison',
-            'Ringo Starr'
-        ] 
+        } 
     },
     {
         name: 'Nine Inch Nails',
@@ -76,10 +52,6 @@ export const nestedArrayBandObjects = [
             one:'Pretty Hate Machine',
             two: 'The Downward Spiral',
             three: 'With Teeth'
-        },
-        members: [
-            'Trent Reznor',
-            'Atticus Ross'
-        ] 
+        } 
     }
 ];
